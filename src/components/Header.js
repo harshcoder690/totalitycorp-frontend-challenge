@@ -24,7 +24,7 @@ const Header = () => {
     <Navbar className="customcolor" variant="dark" style={{ height: 80 }}>
       <Container>
         <Navbar.Brand>
-          <Link to="/"></Link>
+          <Link to="/">SHOPZY</Link>
         </Navbar.Brand>
         {useLocation().pathname.split("/")[1] !== "cart" && (
           <Navbar.Text className="search">
